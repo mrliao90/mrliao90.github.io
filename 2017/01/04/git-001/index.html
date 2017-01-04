@@ -19,7 +19,7 @@
 <meta property="og:title" content="git clone 太慢怎么办">
 <meta property="og:url" content="mrliao90.github.io/2017/01/04/git-001/index.html">
 <meta property="og:site_name" content="Hexo Liao">
-<meta property="og:updated_time" content="2017-01-04T15:48:53.920Z">
+<meta property="og:updated_time" content="2017-01-04T15:53:54.988Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git clone 太慢怎么办">
 
@@ -235,12 +235,13 @@
 <a id="more"></a>
 <the rest="" of="" contents="" |="" 余下全文="">
 
-<p>#一、git shallow clone</p>
+<p>##一、git shallow clone</p>
 <ul>
 <li>git clone 默认会下载项目的完整历史版本，如果你只关心最新版的代码，而不关心之前的历史信息，可以使用 git 的浅复制功能：<br>-<br>$ git clone –depth=1 <a href="https://github.com/bcit-ci/CodeIgniter.git" target="_blank" rel="external">https://github.com/bcit-ci/CodeIgniter.git</a><br>-<br>[–depth=1]<br>表示只下载最近一次的版本，使用浅复制可以大大减少下载的数据量，例如， CodeIgniter 项目完整下载有近 100MiB ，而使用浅复制只有 5MiB 多，<br>这样即使在恶劣的网络环境下，也可以快速的获得代码。如果之后又想获取完整历史信息，可以使用下面的命令：</li>
 </ul>
 <p>$ git fetch –unshallow</p>
 <p>或者，如果你只是想下载最新的代码看看，你也可以直接从 GitHub 上下载打包好的 ZIP 文件，这比浅复制更快，因为它只包含了最新的代码文件，<br>而且是经过 ZIP 压缩的。但是很显然，浅复制要更灵活一点。</p>
+<p>参考链接：<a href="http://www.tuicool.com/articles/a2m6fau" target="_blank" rel="external">http://www.tuicool.com/articles/a2m6fau</a></p>
 </the></excerpt>
       
     </div>
@@ -254,8 +255,8 @@
         
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/01/02/test/">
-                    
+                <a href="/2017/01/04/test/">
+                    git clone Hello Word
                 </a>
             </div>
         
@@ -329,13 +330,13 @@
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2017/01/02/test/" title="下一篇: ">
+            <a href="/2017/01/04/test/" title="下一篇: git clone Hello Word">
                 <i class="fa fa-angle-right"></i>
             </a>
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/01/04/git-001/">git clone 太慢怎么办</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/02/test/">test</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/01/04/git-001/">git clone 太慢怎么办</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/04/test/">git clone Hello Word</a></li></ul>
 
 
 
